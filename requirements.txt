@@ -1,0 +1,32 @@
+# Core
+python-dotenv
+loguru
+PyYAML
+rich
+
+
+# Data & ML
+pandas
+numpy
+scikit-learn
+scipy
+datasets
+
+
+# Transformers & training
+torch
+transformers
+accelerate
+peft
+
+
+# Explainability
+lime
+captum
+
+
+# API & Viz
+fastapi
+uvicorn
+matplotlib
+jinja2
