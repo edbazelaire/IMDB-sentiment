@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imdb_sentiment"
+version = "0.1"
+description = "IMDB sentiment analysis project"
+requires-python = ">=3.11"
+dependencies = [
+	"datasets",
+    "evaluate",
+    "scikit-learn",
+    "numpy",
+    "pandas",
+    "transformers",
+    "peft",
+    "accelerate",
+    "lime",
+    "torch",            
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*", "src*"]
+
+[project.scripts]
+train_lora = "src.training.train_lora:main"
+train_baseline = "src.training.train_baseline:main"
+evaluate = "src.prediction.evaluate:main"
+explain = "src.prediction.explain:main"
+attention = "src.prediction.viz_attention:main"
+start_api = "app.fastapi_app:main"

@@ -1,0 +1,24 @@
+seed: 42
+
+paths:
+  cache_dir: ./.cache
+  artifacts_dir: ./artifacts
+  reports_dir: ./reports
+
+baseline:
+  max_features: 20000
+  ngram_range: [1,2]
+  max_iter: 250
+  C: 2.0
+
+lora:
+  model_name: distilbert-base-uncased
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  lr: 1.0e-4
+  batch_size: 32
+  epochs: 3
+  max_length: 256
+  warmup_ratio: 0.1
+  weight_decay: 0.01
