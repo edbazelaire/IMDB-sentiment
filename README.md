@@ -12,6 +12,20 @@ Il inclut aussi :
 
 ---
 
+## 📑 Index des livrables
+
+Dans le dossier "documents/" se trouvent les livrables de ce projet et des questions techniques complémentaires.
+
+## Questions techniques
+- [Question 1 : génération de descriptions d'armes RPG](documents/question_01.md)  
+- [Question 2 : pipeline de build et tests Unity](documents/question_02.md)  
+- [Question 3 (bonus) : outils d'éditeur pédagogiques dans Unity](documents/question_03.md)  
+
+## Projet IMDB – Analyse de sentiments
+- [Rapport technique – IMDB](documents/rapport_technique.md)  
+- [Notebook d’analyse exploratoire des données](documents/data_analysis_imdb.ipynb)  
+
+
 ## ⚙️ Installation & Setup
 
 ### 1. Créer l’environnement (Conda recommandé)
