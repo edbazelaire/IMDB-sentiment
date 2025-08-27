@@ -30,13 +30,24 @@ Ce notebook comprend la partie analyse du dataset en Partie 1. Il se poursuit av
 
 ## ⚙️ Installation & Setup
 
-### 1. Créer l’environnement (Conda recommandé)
+### 1. Télécharger le projet
+
+```bash
+git clone https://github.com/edbazelaire/IMDB-sentiment.git imdb-sentiment
+cd imdb-sentiment
+git lfs pull
+```
+
+`git lfs pull` pour télécharger le LoRA
+
+
+### 2. Créer l’environnement (optionel - Conda recommandé)
 ```bash
 conda create -n imdb-sentiment python=3.11
 conda activate imdb-sentiment
 ````
 
-### 2. Installer les dépendances
+### 3. Installer les dépendances
 
 ```bash
 pip install -e .

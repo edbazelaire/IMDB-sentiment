@@ -20,6 +20,7 @@ dependencies = [
     "torch",            
     "fastapi",
     "uvicorn",
+    "loguru",
 ]
 
 [tool.setuptools.packages.find]
