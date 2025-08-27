@@ -23,7 +23,7 @@ Dans le dossier "documents/" se trouvent les livrables de ce projet et des quest
 
 ## Projet IMDB – Analyse de sentiments
 - [Notebook d’analyse exploratoire des données](documents/data_analysis_imdb.ipynb) :
-Ce notebook comprend la partie analyse du dataset en Partie 1. Il se poursuit en partie avec l'entrainement d'un modèle Baseline (Partie 2), d'un LoRA (Partie 3) et une comparaison très simpliste de ces deux modèles (Partie 4). Le but était de refaire ce projet d'analyse de sentiments dans une version ultra simpliste "straight to the point".
+Ce notebook comprend la partie analyse du dataset en Partie 1. Il se poursuit avec l'entrainement d'un modèle Baseline (Partie 2), d'un LoRA (Partie 3) et une comparaison très simpliste de ces deux modèles (Partie 4). Le but était de refaire ce projet d'analyse de sentiments dans une version ultra simpliste "straight to the point".
 - [Rapport technique – IMDB](documents/rapport_technique.md)  
 
 
